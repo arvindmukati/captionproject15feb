@@ -1,0 +1,13 @@
+{
+  "port": "7878",
+  "device": "local",
+  "platformName": "android",
+  "deviceName": "oneplus",
+  "app": "",
+  "udid": "7DDEEEJ7UCGYINMR",
+  "appPackage": "com.code2lead.kwad",
+  "appActivity": "com.code2lead.kwad.MainActivity",
+  "user_id": "",
+  "token": "",
+  "app_id": ""
+}
