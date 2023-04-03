@@ -35,6 +35,25 @@ class TestAndroidDeviceLocal(AppiumConfig):
         action.press(ele).move_to(x=375, y=850).wait(2000).release().perform()
         time.sleep(5)
 
+    def test_form_info(self):
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/ContactUs").click()
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et2").click()
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et2").send_keys("Arvind")
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et3").send_keys("arvind@email.com")
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et6").send_keys("Indore")
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et7").send_keys("123456")
+        self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Btn2").click()
+        self.driver.press_keycode("04")
+        actual_name = self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Tv2").text
+        actual_email = self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Tv7").text
+        actual_password = self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Tv5").text
+        actual_mobile = self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Tv6").text
+        assert_that(actual_name).is_equal_to("Name: Arvind")
+        assert_that(actual_email).is_equal_to("Email: arvind@email.com")
+        assert_that(actual_password).is_equal_to("Password: Indore")
+        assert_that(actual_mobile).is_equal_to("Mobile: 123456")
+
+
 
 
 

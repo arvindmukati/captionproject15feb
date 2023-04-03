@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70c74eb0-7cb5-491a-9705-85b42ef89c11" name="Changes" comment="" />
+    <list default="true" id="70c74eb0-7cb5-491a-9705-85b42ef89c11" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nq3vLLQWCE4vg6sgYiiqZ5aZJC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,21 +41,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_move_element">
-    <configuration name="Python tests for test_login.TestAndroidDeviceLocal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="captionProject_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestAndroidDeviceLocal&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info">
     <configuration name="Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="captionProject_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +69,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_login.TestAndroidDeviceLocal.test_enter_value_and_verify&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.TestAndroidDeviceLocal.test_form_info" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="captionProject_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestAndroidDeviceLocal.test_form_info&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -129,19 +138,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in captionProject_2" />
+      <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_enter_value_and_verify" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_move_element" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_scroll_view" />
-      <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal" />
       <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_move_element" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_scroll_view" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_enter_value_and_verify" />
         <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" />
-        <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +172,6 @@
           <url>file://$PROJECT_DIR$/tests/conftest.py</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_login.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
