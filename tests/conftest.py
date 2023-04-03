@@ -1,6 +1,8 @@
+import datetime
+
 import pytest
 from appium.webdriver.appium_service import AppiumService
-from selenium import webdriver
+
 
 from utilities import read_utils
 
@@ -12,6 +14,7 @@ def start_appium_server():
     print(port,device)
     if device=="local":
         service = AppiumService()
+        date = datetime.date.today()
         #service.start(args=['-a', 'localhost', '-p', '4723'])
         service.start(args=['-p', port, '-a', 'localhost', '--relaxed-security', '--base-path', '/wd/hub'])
         print(service.is_running)

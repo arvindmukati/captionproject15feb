@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70c74eb0-7cb5-491a-9705-85b42ef89c11" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +42,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info">
-    <configuration name="Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestAndroidDeviceLocal">
+    <configuration name="pytest for test_login.TestAndroidDeviceLocal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="captionProject_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,8 +52,10 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestAndroidDeviceLocal.test_invalid_login&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestAndroidDeviceLocal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -138,19 +141,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in captionProject_2" />
+      <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_enter_value_and_verify" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_move_element" />
       <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_scroll_view" />
-      <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info" />
+        <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_move_element" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_scroll_view" />
         <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_enter_value_and_verify" />
-        <item itemvalue="Python tests.Python tests for test_login.TestAndroidDeviceLocal.test_invalid_login" />
+        <item itemvalue="Python tests.pytest for test_login.TestAndroidDeviceLocal.test_form_info" />
       </list>
     </recent_temporary>
   </component>
@@ -163,15 +166,31 @@
       <option name="presentableId" value="Default" />
       <updated>1680378016835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Tetcase for form">
+      <created>1680505355170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680505355170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Tetcase for form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tetcase for form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/conftest.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

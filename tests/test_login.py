@@ -12,9 +12,9 @@ class TestAndroidDeviceLocal(AppiumConfig):
         self.driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/EnterValue").click()
         self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/Et1").send_keys("Hello World")
         self.driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/Btn1").click()
-        actual_text =self.driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/Tv1").text
+        actual_text = self.driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/Tv1").text
         assert_that("Hello World").is_equal_to(actual_text)
-        time.sleep(10)
+
 
     def test_scroll_view(self):
         self.driver.find_element(AppiumBy.XPATH,"//android.widget.Button[@content-desc='Btn3']").click()
@@ -25,7 +25,7 @@ class TestAndroidDeviceLocal(AppiumConfig):
         self.driver.find_element(AppiumBy.ID, "android:id/button1").click()
         actual_text = self.driver.find_element(AppiumBy.XPATH,"//android.widget.TextView").text
         assert_that(actual_text).is_equal_to("KWADemo")
-        time.sleep(2)
+
 
     def test_move_element(self):
         action = TouchAction(self.driver)
@@ -33,7 +33,7 @@ class TestAndroidDeviceLocal(AppiumConfig):
         self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/drag").click()
         ele = self.driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/ingvw")
         action.press(ele).move_to(x=375, y=850).wait(2000).release().perform()
-        time.sleep(5)
+
 
     def test_form_info(self):
         self.driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/ContactUs").click()
